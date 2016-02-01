@@ -1,0 +1,274 @@
+/*
+ *  author: Guillaume Baudusseau, World Wide Web Consortium
+ */
+
+
+/* global settings */
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    font-size: 16px;
+    font-family: Open Sans;
+}
+
+h1 {
+    font-family: Open Sans;
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 3rem;
+    color: rgba(0,0,0,0.7);
+    margin-top: 0px;
+    letter-spacing: 0.02rem;
+}
+
+h2 {
+    font-family: Open Sans;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2rem;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3 {
+    font-family: Open Sans;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+}
+
+main {
+    width: 100%;
+}
+
+/* header */
+
+header {
+    background-color: white;
+    height: 68px;
+    --border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+header nav {
+}
+
+header nav .brand-name {
+    position: absolute;
+    left: calc((100% - 900px) / 2);
+    margin-top: 16px;
+}
+
+header nav .brand-name a {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #2962FF;
+    --color: rgba(0,0,0,0.6);
+    text-decoration: none;
+    font-family: Open Sans;
+    font-family: Roboto slab;
+    font-size: 0.9rem;
+    letter-spacing: 0.02rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding-left: 0px;
+    position: absolute;
+    right: calc((100% - 900px) / 2);;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+}
+
+header nav ul li a {
+    padding: 5px 10px 5px 10px;
+    color: #2962FF;
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 0.01rem;
+    text-decoration: none;
+}
+
+
+/* hero, this big fancy banner at the top you know? */
+
+#hero {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#hero h1 {
+    font-weight: 100;
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+#hero .call-to-action {
+    margin-top: 50px;
+    font-weight: 300;
+}
+
+#hero .call-to-action a {
+    padding: 10px 15px 10px 15px;
+    background-color: #3D5AFE;
+    color: white;
+    font-weight: 300;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+#hero .call-to-action a:hover {
+    background-color: #3D5AFE;
+}
+/* main content here */
+
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+main section {
+    width: 100%;
+    padding-bottom: 80px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.row {
+    width: 100%;
+    display: grid;
+    padding-top: 50px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section .block {
+    width: 50%;
+    float: left;
+}
+
+section .block-3 {
+    width: 33.333333%;
+    float: left;
+}
+
+main section p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(0,0,0,0.7);
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+}
+
+section img {
+    width: 60%;
+    margin-left: 20%;
+}
+
+section#tracks p {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    text-align: center;
+}
+
+section#tracks p.call-to-action {
+    margin-top: 20px;
+}
+
+section#tracks p.call-to-action a {
+    padding: 10px 15px 10px 15px;
+    background-color: transparent;
+    color: rgba(0,0,0,0.7);
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+section#tracks p.call-to-action a:hover {
+    color: #536DFE;
+    border: 1px solid #536DFE;
+}
+
+section#stories {
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    background-color: #fbfbfb;
+    padding-bottom: 80px;
+}
+
+section#stories .row {
+    max-width: 900px;
+    margin: auto;
+}
+
+section#stories p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: rgba(0,0,0,0.7);
+    line-height: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.02rem;
+    margin-top: 0px;
+}
+
+section#stories p.call-to-action {
+    margin-top: 20px;
+}
+
+section#stories p.call-to-action a {
+    padding: 10px 15px 10px 15px;
+    background-color: transparent;
+    color: rgba(0,0,0,0.7);
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+section#stories p.call-to-action a:hover {
+    color: #536DFE;
+    border: 1px solid #536DFE;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(0,0,0,0.5);
+    line-height: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.02rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* let's make it work for the 9.99% desktop's users left ;) */
+
+@media (min-width: 48em) {
+
+}

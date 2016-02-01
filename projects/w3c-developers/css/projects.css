@@ -1,0 +1,148 @@
+
+header {
+    padding-top: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+#hero {
+    background-color: white;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    background-color: #fbfbfb;
+}
+
+#hero ul {
+    margin: auto;
+    max-width: 900px;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0px;
+    display: table;
+    margin-top: 40px;
+}
+
+#hero ul li {
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#hero ul li a {
+    font-size: 0.9rem;
+    color: #536DFE;
+    text-decoration: none;
+}
+
+main section {
+    border-top: 0px;
+}
+
+table {
+    width: 100%;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 0px;
+}
+table tr {
+    border-bottom: 0px;
+    --border: 1px solid rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+table thead tr th {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(0,0,0,0.5);
+    padding: 15px 15px 0px 15px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-left {
+    text-align: left;
+}
+
+table tbody tr {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+table tbody tr td {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: rgba(0,0,0,0.7);
+    padding: 15px 15px 15px 15px;
+}
+
+table tbody tr td a {
+    text-decoration: none;
+    line-height: 2rem;
+    text-align: left;
+    color: rgba(0,0,0,0.7);
+    font-weight: 600;
+}
+
+table tbody tr td a:hover {
+    color: #3D5AFE;
+}
+
+table tbody tr td p {
+    margin-top: 0px;
+    font-size: 0.9rem;
+}
+
+td.expanded-cell {
+    height: 300px;
+    cursor: default;
+}
+
+section#contributors {
+    width: 100%;
+    padding-bottom: 50px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    background-color: #fbfbfb;
+}
+
+section#contributors ul {
+    margin: auto;
+    max-width: 900px;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+section#contributors ul li {
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+}
+
+section#contributors .call-to-action {
+    text-align: center;
+    margin-top: 40px;
+}
+
+section#contributors .call-to-action a {
+    padding: 10px 15px 10px 15px;
+    background-color: transparent;
+    color: rgba(0,0,0,0.7);
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+section#contributors .call-to-action a:hover {
+    color: #536DFE;
+    border: 1px solid #536DFE;
+}
+
+footer {
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
