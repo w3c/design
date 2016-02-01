@@ -1,0 +1,81 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    height: 100%;
+    font-size: 18px;
+    font-family: PT Mono;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: rgba(0,0,0,0.73);
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+header {
+    width: 100%;
+    background-color: #33333d;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+header .brand-name a {
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    padding: 30px 30px 30px 30px;
+}
+
+#project-list ul {
+    list-style-type: none;
+    padding-left: 0px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#project-list ul li {
+    padding-top: 50px;
+    text-align: left;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    padding: 50px 20px 50px 20px;
+}
+
+#project-list ul li img {
+    float: left;
+    display: inline-block;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+
+}
+
+#project-list ul li h3 {
+    padding-left: 100px;
+    margin-top: 0px;
+    font-size: 0.8rem;
+    font-family:;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.01rem;
+}
+
+#project-list ul li a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.7);
+}
+
+#project-list ul li a:hover {
+    text-decoration: underline;
+}
+
+#project-list ul li p {
+    padding-left: 100px;
+    margin-top: 0px;
+    font-size: 0.8rem;
+    font-family: Open Sans;
+    font-weight: 300;
+    line-height: 1.3rem;
+    letter-spacing: 0.01rem;
+    color: rgba(0,0,0,0.9);
+}
