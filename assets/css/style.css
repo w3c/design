@@ -45,8 +45,6 @@ header .brand-name a {
 #project-list ul li img {
     float: left;
     display: inline-block;
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
 
 }
 
