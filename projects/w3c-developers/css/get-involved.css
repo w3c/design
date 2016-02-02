@@ -54,7 +54,7 @@ main {
 /* header */
 
 header {
-    background-color: white;
+    background-color: #2962FF;
     height: 68px;
     --border-bottom: 1px solid rgba(0,0,0,0.1);
 }
@@ -66,6 +66,7 @@ header nav .brand-name {
     position: absolute;
     left: calc((100% - 900px) / 2);
     margin-top: 16px;
+
 }
 
 header nav .brand-name a {
@@ -75,9 +76,10 @@ header nav .brand-name a {
     --color: rgba(0,0,0,0.6);
     text-decoration: none;
     font-family: Open Sans;
-    font-family: Roboto slab;
-    font-size: 0.9rem;
+    font-family: PT Mono;
+    font-size: 1rem;
     letter-spacing: 0.02rem;
+    color: white;
 }
 
 header nav ul {
