@@ -17,6 +17,26 @@ header {
     --text-align: center;
 }
 
+#hero p.call-to-action {
+    text-align: left;
+    margin-left: 190px;
+}
+
+#hero p.call-to-action .action1 {
+    background-color: #304FFE;
+    border: 1px solid #304FFE;
+    font-weight: 300;
+    letter-spacing: normal;
+}
+
+#hero p.call-to-action .action2 {
+    border: 1px solid white;
+    color: white;
+    letter-spacing: normal;
+    background-color: transparent;
+    font-weight: 300;
+}
+
 #hero ul {
     margin: auto;
     max-width: 900px;
@@ -174,4 +194,51 @@ section#contributors .call-to-action a:hover {
 
 footer {
     border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.block-3 {
+    --border: 1px solid rgba(0,0,0,0.1);
+}
+
+.what-to-do {
+    width: 92%;
+    margin: auto;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 3px;
+}
+
+.what-to-do img {
+    margin-top: 40px;
+}
+
+.what-to-do h3 {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 25px;
+    color: rgba(0,0,0,0.7);
+    letter-spacing: normal;
+}
+
+.what-to-do p {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    text-align: center;
+    font-weight: 400;
+    padding: 0px 5px 0px 5px;
+    color: rgba(0,0,0,0.5);
+}
+
+.what-to-do p.call-to-action {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.what-to-do p.call-to-action a {
+    padding: 10px 15px 10px 15px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 3px;
+    color: rgba(0,0,0,0.5);
+    text-decoration: none;
 }
