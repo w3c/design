@@ -11,6 +11,7 @@ html, body {
     outline: 0px;
     font-size: 16px;
     font-family: Open Sans;
+    -webkit-font-smoothing: antialiased;
 }
 
 h1 {
@@ -20,7 +21,6 @@ h1 {
     line-height: 3rem;
     color: rgba(0,0,0,0.7);
     margin-top: 0px;
-    letter-spacing: 0.02rem;
 }
 
 h2 {
@@ -29,7 +29,6 @@ h2 {
     font-weight: 300;
     line-height: 2rem;
     color: rgba(0,0,0,0.5);
-    letter-spacing: 0.02rem;
     text-align: center;
     margin-top: 50px;
 }
@@ -54,8 +53,8 @@ main {
 /* header */
 
 header {
-    background-color: #2962FF;
-    height: 68px;
+    background-color: white;
+    height: 62px;
     --border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
@@ -71,15 +70,20 @@ header nav .brand-name {
 
 header nav .brand-name a {
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 300;
     color: #2962FF;
     --color: rgba(0,0,0,0.6);
     text-decoration: none;
     font-family: Open Sans;
     font-family: PT Mono;
-    font-size: 1rem;
+    font-size: 1.1rem;
     letter-spacing: 0.02rem;
-    color: white;
+    color: #3D5AFE;
+}
+
+header nav .brand-name a strong {
+    color: #3D5AFE;
+    font-weight: 300;
 }
 
 header nav ul {
@@ -107,15 +111,38 @@ header nav ul li a {
 /* hero, this big fancy banner at the top you know? */
 
 #hero {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 0px;
     text-align: center;
 }
 
 #hero h1 {
-    font-weight: 100;
-    font-size: 1.8rem;
+    font-weight: 300;
+    font-family: Open Sans;
+    font-size: 2rem;
     line-height: 3rem;
+    color: rgba(0,0,0,0.7);
+    color: white;
+    margin: auto;
+    text-align: left;
+    --text-transform: uppercase;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 190px;
+
+}
+
+#hero h2 {
+    font-weight: 300;
+    font-family: Open Sans;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    color: rgba(0,0,0,0.7);
+    color: white;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    margin-left: 190px;
 }
 
 #hero .call-to-action {

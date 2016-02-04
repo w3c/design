@@ -2,12 +2,19 @@
 header {
     padding-top: 15px;
     border-bottom: 1px solid rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 #hero {
     background-color: white;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-    background-color: #fbfbfb;
+    --border-bottom: 1px solid rgba(0,0,0,0.1);
+    background-color: white;
+    background-image: url(../img/cover-img2copy.png);
+    background-size: cover;
+    --text-align: center;
 }
 
 #hero ul {
@@ -32,6 +39,28 @@ header {
     font-size: 0.9rem;
     color: #536DFE;
     text-decoration: none;
+}
+
+#hero img {
+    margin: 0px;
+    width: auto;
+}
+
+#hero .video-container {
+}
+
+#hero video {
+}
+
+#hero .blue-bg {
+    width: 100%;
+    height: 100%;
+    --background-color: rgba(61, 90, 254, 0.3);
+    --background-color: rgba(101, 31, 255, 0.5);
+    background:linear-gradient(135deg, #009688, #039BE5, #536DFE, #3D5AFE, #651FFF);
+    padding-top: 150px;
+    padding-bottom: 50px;
+
 }
 
 main section {
