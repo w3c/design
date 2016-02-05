@@ -208,7 +208,7 @@ footer {
 }
 
 .what-to-do img {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .what-to-do h3 {
@@ -226,7 +226,7 @@ footer {
     line-height: 1.2rem;
     text-align: center;
     font-weight: 400;
-    padding: 0px 5px 0px 5px;
+    padding: 0px 20px 0px 20px;
     color: rgba(0,0,0,0.5);
 }
 
