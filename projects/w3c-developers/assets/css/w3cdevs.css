@@ -14,8 +14,48 @@ header, main, section {
 }
 
 header {
-    height: 58px;
+    height: 68px;
     border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+header nav ul {
+    list-style-type: none;
+    padding-left: 0px;
+    vertical-align: center;
+    margin: 0px;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0px 8px 0px 8px;
+}
+
+header nav ul li a {
+    font-size: 0.8em;
+    font-weight: 400;
+    color: rgba(0,0,0,0.54);
+    text-decoration: none;
+    letter-spacing: normal;
+}
+
+header nav ul li a:hover {
+    color: rgba(0,0,0,0.9);
+}
+
+header nav ul li.brand-name {
+    padding: 0px;
+}
+
+header nav ul li.brand-name a {
+    text-transform: uppercase;
+    font-weight: 300;
+    text-decoration: none;
+    font-family: PT Mono;
+    font-size: 1rem;
+    letter-spacing: 0.02rem;
+    color: #3D5AFE;
+    line-height: 68px;
+    margin-right: 20px;
 }
 
 h1 {
@@ -52,15 +92,15 @@ p {
 
 @media (min-width: 48em) {
     .container {
-        max-width: 900px;
+        max-width: 1000px;
         margin: auto;
         display: grid;
     }
 
     .container::after {
-    content: "";
-    display: table;
-    clear: both;
+        content: "";
+        display: table;
+        clear: both;
     }
 
     .block-3 {
