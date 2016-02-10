@@ -1,0 +1,72 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    height: 100%;
+    font-size: 1em;
+    font-family: Open Sans;
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+header, main, section {
+    width: 100%;
+}
+
+header {
+    height: 58px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 2em;
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 2em;
+    margin-top: 0px;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 2em;
+}
+
+p {
+    font-size: 0.8em;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+
+.container {
+    padding: 0px 25px 0px 25px;
+}
+
+/* let's make it work for the 9.99% desktop's users left ;) */
+
+@media (min-width: 48em) {
+    .container {
+        max-width: 900px;
+        margin: auto;
+        display: grid;
+    }
+
+    .container::after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+    .block-3 {
+        width: 33.333333%;
+        float: left;
+    }
+
+}

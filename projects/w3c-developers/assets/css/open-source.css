@@ -1,0 +1,102 @@
+#hero {
+    padding: 0px 0px 30px 0px;
+    overflow: auto;
+    background:linear-gradient(135deg, #009688, #039BE5, #536DFE, #3D5AFE, #651FFF);
+}
+
+#hero h1, #hero h2 {
+    color: white;
+}
+
+#hero p.call-to-action {
+    margin-top: 50px;
+}
+
+#hero p.call-to-action a {
+    padding: 10px 15px 10px 15px;
+    color: white;
+    font-weight: 300;
+    border-radius: 3px;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+#hero p.call-to-action a.action-1 {
+    background-color: #304FFE;
+    border: 1px solid #304FFE;
+}
+
+#hero p.call-to-action a.action-2 {
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+#points-of-interest {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#points-of-interest .interest {
+    margin-top: 20px;
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+}
+
+#points-of-interest h2 {
+    margin-top: 50px;
+    text-align: center;
+    color: rgba(0,0,0,0.7);
+}
+
+#points-of-interest .interest p {
+    color: rgba(0,0,0,0.7);
+}
+
+#points-of-interest .interest p.call-to-action {
+    margin-top: 30px;
+}
+
+#points-of-interest .interest p.call-to-action a {
+    padding: 10px 15px 10px 15px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 3px;
+    color: rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+
+#open-source-projects {
+    padding-top: 30px;
+}
+
+#open-source-projects .container {
+}
+
+#open-source-projects ul.project-list {
+    padding: 0px;
+    list-style-type: none;
+}
+
+#open-source-projects ul.project-list li.project {
+    padding: 20px 15px 20px 15px;
+    margin-top: 30px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+#open-source-projects ul.project-list li.project p {
+    color: rgba(0,0,0,0.7);
+}
+
+#open-source-projects ul.project-analytics {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#open-source-projects ul.project-analytics li {
+    display: inline-block;
+    font-size: 0.8em;
+    color: rgba(0,0,0,0.7);
+    padding: 5px 0px 5px 0px;
+    margin-right: 20px;
+}
