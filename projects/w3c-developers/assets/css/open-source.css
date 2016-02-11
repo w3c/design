@@ -1,7 +1,7 @@
 #hero {
     padding: 0px 0px 30px 0px;
     overflow: auto;
-    background:linear-gradient(135deg, #009688, #039BE5, #039BE5, #536DFE, #536DFE, #3D5AFE, #651FFF, #651FFF);
+    background:linear-gradient(135deg, #69F0AE, #039BE5, #536DFE, #536DFE, #536DFE ,#7C4DFF, #7C4DFF);
 }
 
 #hero h1, #hero h2 {
@@ -15,27 +15,27 @@
 #hero p.call-to-action a {
     padding: 10px 15px 10px 15px;
     color: white;
-    font-weight: 300;
+    font-weight: 400;
     border-radius: 3px;
     font-size: 1.1em;
     text-decoration: none;
 }
 
-#hero p.call-to-action a.action-1 {
-    background-color: #304FFE;
-    border: 1px solid #304FFE;
+#hero p.call-to-action a.action-2 {
+    background-color: #00E676;
+    border: 1px solid #00C853;
+    color: rgba(0,0,0,0.7);
 }
 
-#hero p.call-to-action a.action-2 {
-    border: 1px solid white;
-    color: white;
-    background-color: transparent;
+#hero p.call-to-action a.action-1 {
+    border: 1px solid rgba(0,0,0,0.1);
+    color: rgba(0,0,0,0.7);
+    background-color: white;
 }
 
 #points-of-interest {
     padding-top: 30px;
     padding-bottom: 50px;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 #points-of-interest .interest {
@@ -59,7 +59,7 @@
 }
 
 #points-of-interest .interest p.call-to-action a {
-    padding: 10px 15px 10px 15px;
+    padding: 5px 15px 5px 15px;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 3px;
     color: rgba(0,0,0,0.5);
@@ -69,12 +69,19 @@
 #open-source-projects {
     padding-top: 30px;
     padding-bottom: 50px;
-    background-color: #fbfbfb;
+}
+
+#open-source-projects:before {
+    content: " ";
+    width: 600px;
+    display: block;
+    margin: auto;
+    border-top: 1px solid rgba(0,0,0,0.1);
 }
 
 #open-source-projects h2 {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 #open-source-projects .container {
@@ -111,14 +118,44 @@
     margin-right: 20px;
 }
 
-#open-source-projects p.call-to-action {
+#open-source-projects ul.project-list li.project p.call-to-action {
     margin-top: 30px;
 }
 
-#open-source-projects p.call-to-action a {
+#open-source-projects ul.project-list li.project p.call-to-action a {
     padding: 10px 15px 10px 15px;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 3px;
     color: rgba(0,0,0,0.5);
     text-decoration: none;
+}
+
+#open-source-projects .load-more-projects {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#open-source-projects .load-more-projects a {
+    padding: 10px 50px 10px 50px;
+    border: 1px solid #3D5AFE;
+    border-radius: 3px;
+    color: #3D5AFE;
+    text-decoration: none;
+}
+
+#open-source-projects .load-more-projects a:hover {
+    background-color: #E3F2FD;
+}
+
+@media (min-width: 48em) {
+
+    #open-source-projects ul.project-list {
+        text-align: center;
+    }
+
+    #open-source-projects ul.project-list li.project {
+        width: 40%;
+        display: inline-block;
+        margin-top: 5px;
+    }
 }
