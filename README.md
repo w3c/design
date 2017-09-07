@@ -6,7 +6,9 @@ Templates, mock-ups, proposals and design-related materials at [W3C](https://www
 
 ## Contents
 
-* Working group home page template: coming soon (label for issues: [<span style="background-color: #fbca04;">🏷️ wg-page-template</span>](https://github.com/w3c/design/issues?utf8=%E2%9C%93&q=label%3Awg-page-template))
+Ongoing work:
+
+* **Working group home page template**: coming soon (label [🏷️ wg-page-template](https://github.com/w3c/design/issues?utf8=%E2%9C%93&q=label%3Awg-page-template))
 
 Archived material (@gbaudusseau's):
 
