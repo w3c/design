@@ -1,0 +1,61 @@
+/************************************** 1/5: extra small devices (portrait phones, < 576px) */
+
+* {
+  box-sizing: border-box;
+}
+
+body, header, nav, main, aside, footer {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(#3F96F5 0%, #005A9C 100%);
+  background-image: url('https://www.w3.org/2008/site/images/logo-w3c-scalable.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 10% 0;
+}
+
+/************************************** 2/5: small devices (landscape phones, ≥ 576px) */
+
+@media (min-width: 576px) {
+
+}
+
+/************************************** 3/5: medium devices (tablets, ≥ 768px) */
+
+@media (min-width: 768px) {
+
+  header {
+    margin: .5rem 0;
+  }
+
+}
+
+/************************************** 4/5: large devices (desktops, ≥ 992px) */
+
+@media (min-width: 992px) {
+
+  main {
+    display: inline-block;
+    background-color: #eeeeee;
+  }
+
+  nav {
+    float: left;
+  }
+
+}
+
+/************************************** 5/5: extra large devices (large desktops, ≥ 1200px) */
+
+@media (min-width: 1200px) {
+
+  aside {
+    float: right;
+    background-color: #eeeeee;
+  }
+
+}
