@@ -2,7 +2,7 @@
 
 VNU="../validator/build/dist/vnu.jar"
 URL="http://localhost/design/templates/"
-PAGES="minimal"
+PAGES="generic"
 
 for page in $PAGES; do
   echo Checking $page …
