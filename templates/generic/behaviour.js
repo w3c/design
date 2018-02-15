@@ -1,3 +1,5 @@
+// W3C Design — see https://github.com/w3c/design to learn how to use this template
+
 (function(window) {
   'use strict';
 

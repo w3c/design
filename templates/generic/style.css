@@ -1,3 +1,5 @@
+/* W3C Design — see https://github.com/w3c/design to learn how to use this template */
+
 /************************************** Fonts */
 
 /* vietnamese */
@@ -364,10 +366,6 @@ aside {
   border-width: 1px 0;
 }
 
-footer p {
-  /*margin: 0;*/
-}
-
 h1, h2, h3, h4, h5, h6 {
   line-height: 1em;
   color: #00666f;
@@ -448,17 +446,13 @@ code, code * {
 
 @media (min-width: 768px) {
 
-  header, footer {
+  header {
     position: sticky;
     padding-left: 25%;
   }
 
   header {
     top: 0;
-  }
-
-  footer {
-    bottom: 0;
   }
 
   main {
