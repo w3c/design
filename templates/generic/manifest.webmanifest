@@ -1,0 +1,29 @@
+{
+    "lang": "@@lANGUAGE@@",
+    "name": "@@NAME@@",
+    "short_name": "@@SHORT_NAME",
+    "description": "@@DESCRIPTION",
+    "dir": "ltr",
+    "scope": "@@SCOPE@@",
+    "start_url": "@@START_URL@@",
+    "display": "@@DISPLAY@@",
+    "orientation": "@@ORIENTATION@@",
+    "theme_color": "@@COLOUR@@",
+    "background_color": "@@BG_COLOUR@@",
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "@@SIZES@@",
+            "type": "image/png"
+        },
+        "Other @@ICONS@@"
+    ],
+    "screenshots": [
+        {
+            "src": "@@SCREENSHOT@@",
+            "sizes": "@@SIZES@@",
+            "type": "image/png"
+        },
+        "Other @@SCREENSHOTS@@"
+    ]
+}

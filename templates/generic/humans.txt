@@ -1,0 +1,8 @@
+/* TEAM */
+    @@AUTHORS@@
+
+/* THANKS */
+    @@CREDIT@@
+
+/* SITE */
+    @@DETAILS@@
