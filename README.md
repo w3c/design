@@ -12,6 +12,7 @@ Templates, mock-ups, proposals and design-related materials at [W3C](https://www
   * [Working group home page template](https://w3c.github.io/design/wg-homepage/)
     (label [🏷️ wg-page-template](https://github.com/w3c/design/issues?utf8=%E2%9C%93&q=label%3Awg-page-template))
   * [New templates](templates/)
+  * [New style guide](https://w3c.github.io/design/styleguide/)
 * Elsewhere:
   * [Mockups for /TR (`w3c/tr-pages`)](https://github.com/w3c/tr-pages/)
 
