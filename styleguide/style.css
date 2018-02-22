@@ -1,0 +1,31 @@
+@charset utf-8;
+
+/* Layout */
+.flex{display: flex;}
+
+/* Brand Colours Section */
+.box{
+    width:25%;
+    border: 1px solid #cdcdcd;
+    padding: 20px;
+    margin: 15px 15px 0 0;
+}
+.box p{font-size: 0.9em;}
+
+.info{
+    height: 100px;
+    border: 1px solid #cdcdcd;
+}
+
+.logoblue{background-color: #005A9C;}
+.logowhite{background-color: #fff;}
+.logoblack{background-color: #000;}
+.valyellow{background-color: #FFCC66;}
+.valred{background-color: #990000;}
+.conorg{background-color: #CB6628;}
+.team{background-color: #FFEEC2;}
+.member{background-color: #E2EDFE;}
+.pubrules{background-color: #0050B2;}
+
+
+
