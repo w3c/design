@@ -9,6 +9,4 @@ Find detailed instructions in the [howto](howto.md).
 
 Curious about the geeky ideas behind these templates?
 Want to contribute?
-See the [technical decicions](technical-decisions.md) and the [design principles](design-principles.md).
-
-[*Scratchpad*](scratchpad/) (nothing interesting here).
+See the [technical decisions](technical-decisions.md) and the [design principles](design-principles.md).
