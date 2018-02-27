@@ -14,7 +14,7 @@
   of an `h2` divided by the font size of an `h3`, etc).
   However, there are 6 possible levels of headings, and then &ldquo;normal&rdquo; text, which gives a total of seven different sizes to reflect the structure
   (the *outline*) of the document.
-  Because the smallest headings (`h6` and `h5`, even `h4`) are used way less often, we stop differentiating sizes at `h4`: we put no differences between the
+  Because the smallest headings (`h6` and `h5`, even `h4`) are used way less often, we stop differentiating sizes after `h4`: we put no differences between the
   sizes of `h4`, `h5`, `h6` and `p` (but headings will look different still, because of indentation, font weight, colour, etc).
 * When there's an overlay at the top, fragment IDs can't be obscured when navigating to them
   (see [the problem, and a solution](https://codepen.io/tripu/pen/NqyKPZ))

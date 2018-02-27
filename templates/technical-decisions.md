@@ -28,11 +28,11 @@
 * **Conservative adoption of &ldquo;new&rdquo; features**: only when widely supported by UA's
 * **Progressive enhancement** (in particular: no vital features should depend on JS)
 * Directory names and file names:
-  * Descriptive names that are long enough (but well-known abbreviations, such as `comm` or `cvs` are okay)
+  * Descriptive names that are long enough (but well-known abbreviations, such as `comm` or `cvs` are okay)  
     👉 Avoids confusions to humans, and name collisions; no reasons to restrict length too much
-  * All in lowercase
+  * All in lowercase  
     👉 d
-  * *Without* any characters that may be problematic for certain file systems or tools, like spaces, `?` and `'`
+  * *Without* any characters that may be problematic for certain file systems or tools, like spaces, `?` and `'`  
     👉 d
 
 ## 2. HTML
@@ -43,8 +43,8 @@
 * Strong use of semantic elements; in particular: `header`, `main`, `footer`, `nav`, `aside`, `section` and `article`
 * Whenever possible, [polyglot HTML5](https://www.w3.org/TR/html-polyglot/) (eg: we close all tags)
 * HTML should pass our own validator, if at all possible (tip: use [`validate.sh`](validate.sh))
-* The default filename is `index.html`
-  👉 The extension `.htm` is a remnant of MS-DOS limitations, the name `Overview` also fell out of usage
+* The default filename is `index.html`  
+  👉 The extension `.htm` is a remnant of MS-DOS limitations; the name `Overview` fell out of fashion, is unnecessarily long, and has mixed case
 
 ## 3. CSS
 
@@ -59,19 +59,19 @@
 
 ## 4. JS
 
-* Semicolons at the end of statements
+* **Semicolons** at the end of statements
 * Behaviour encapsulated inside IIFE's  
   👉 To avoid polluting the global scope
 * Conservative feature detection, with graceful fallbacks
 * Quotes for strings: `'` (single quotation mark)  
   👉 `"` (double quote) requires one extra keystroke (to hold &#8679;)
 
-These JS features have enough support, and are encouraged (links point to corresponding *caniuse.com* page):
+These JS features have enough support, and are **encouraged** (links point to corresponding *caniuse.com* page):
 
 * [Strict mode](https://caniuse.com/#feat=use-strict)
 * [`const`](https://caniuse.com/#feat=const)
 
-These other JS features we are avoiding on purpose, for they are not sufficiently well supported (links to *caniuse.com* again):
+These other JS features we **avoid** on purpose, for they are not sufficiently well supported (links to *caniuse.com* again):
 
 * [`let`](https://caniuse.com/#feat=let)
 * [*Fat arrow* functions](https://caniuse.com/#feat=arrow-functions)
@@ -79,6 +79,8 @@ These other JS features we are avoiding on purpose, for they are not sufficientl
 
 ## 5. Artwork
 
-* Preferably vector images (SVG) when possible
-* Sprites when possible (as opposed to many individual image files), but beware of issues when UA's apply some zoom to the page
-* We do *not* use *icon fonts* (eg, Font Awesome)
+* Preferably vector images (SVG) when possible  
+  👉 standard, lightweight, scalable
+* Sprites when possible, as opposed to many individual image files (but beware of issues when UA's apply some zoom to the page)
+* We do *not* use *icon fonts* (eg, Font Awesome)  
+  👉 they are a hack, they are a relatively heavy and complex dependency, and they are unnecessary
