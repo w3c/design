@@ -24,7 +24,7 @@
    * If the main language of your page is *not* English, edit the `lang` attribute of `<html>` accordingly
    * The page includes three empty elements for the proper &ldquo;content&rdquo; of the page: `<nav>`, `<main>`, `<aside>`; decide whether you need one, two, or
      the three of them, and enable/disable them (about this, read more [below](#3-about-principal-elements-for-content))
-   * Find all placeholders (eg `@@FOO@@`) and replace them with your content (eg title, author, )
+   * Find all placeholders (eg `@@FOO@@`) and replace them with actual information (eg title, author, content)
 3. **If you need custom CSS rules or JS functions**, create new CSS/JS files to hold those, and link to those files from `index.html`.
    Ditto about images and other resources.
    Do *not* edit the resource files that are part of the template (eg `style.css`, `behaviour.js`).

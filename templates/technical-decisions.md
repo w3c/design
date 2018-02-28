@@ -31,9 +31,9 @@
   * Descriptive names that are long enough (but well-known abbreviations, such as `comm` or `cvs` are okay)  
     👉 Avoids confusions to humans, and name collisions; no reasons to restrict length too much
   * All in lowercase  
-    👉 d
-  * *Without* any characters that may be problematic for certain file systems or tools, like spaces, `?` and `'`  
-    👉 d
+    👉 Less strokes (no need to hold &#8679;), more predictable, more portable
+  * *Without* any characters that may be problematic for certain file systems or tools (eg ` `, `?`, `'`)  
+    👉 More portable, less bug-prone
 
 ## 2. HTML
 
@@ -44,7 +44,7 @@
 * Whenever possible, [polyglot HTML5](https://www.w3.org/TR/html-polyglot/) (eg: we close all tags)
 * HTML should pass our own validator, if at all possible (tip: use [`validate.sh`](validate.sh))
 * The default filename is `index.html`  
-  👉 The extension `.htm` is a remnant of MS-DOS limitations; the name `Overview` fell out of fashion, is unnecessarily long, and has mixed case
+  👉 The extension `.htm` is a remnant of MS-DOS limitations; the name `Overview` fell out of fashion, is unnecessarily long, and contains mixed case
 
 ## 3. CSS
 
