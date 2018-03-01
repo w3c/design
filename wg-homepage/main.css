@@ -26,7 +26,7 @@ a, a:visited, a:hover, a:focus {
   color: #4184F3;
   background: transparent;
 }
-a, a:visited {
+:not(footer) a, :not(footer)a:visited {
   text-decoration: none;
 }
 a:hover, a:focus {
@@ -141,7 +141,10 @@ footer {
 footer p { margin: 0; padding: 0;}
 footer a, footer a:visited, footer a:focus, footer a:hover {
   color: white;
-  font-weight: bold;
+}
+
+footer a:focus, footer a:hover {
+  color: white;
 }
 
 @media screen and (min-width: 78rem) {
