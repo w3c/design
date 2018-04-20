@@ -23,7 +23,7 @@ ul, ul li {
 }
 
 a, a:visited, a:hover, a:focus {
-  color: #4184F3;
+  color: #0000cc;
   background: transparent;
 }
 :not(footer) a, :not(footer)a:visited {
