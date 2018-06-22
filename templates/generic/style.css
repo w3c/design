@@ -311,15 +311,19 @@
 
 * {
   box-sizing: border-box;
+  text-rendering: optimizeSpeed;
+  margin: 0;
+  border: 0;
+  padding: 0;
   line-height: 1.25em;
   font-size: 1em;
   font-family: 'Noto Sans', sans-serif;
 }
 
-body, header, main, footer, nav, aside, section, article, h1, h2, h3, h4, h5, h6 {
-  margin: 0;
+body, header, main, footer, nav, aside, figure, section, article, h1, h2, h3, h4, h5, h6 {
+  /*margin: 0;
   border: 0;
-  padding: 0;
+  padding: 0;*/
 }
 
 body {
@@ -329,14 +333,16 @@ body {
 
 header, main, footer, nav, aside {
   width: 100%;
-  padding: 1rem;
-  transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  /*padding: 1rem;*/
 }
 
 header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   /*height: 3.75rem;*/
   /*line-height: 3rem;*/
-  background-color: #003366;
+  /*background-color: #003366;*/
 }
 
 nav, aside {
@@ -368,21 +374,42 @@ aside {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1em;
+  font-weight: bold;
   color: #00666f;
-  transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+header * {
+  /*font-size: 1.5rem;
+  line-height: 1em;*/
+  /*font-weight: normal;*/
+}
+
+header > * {
+  align-self: stretch;
+  padding: .25em;
+}
+
+header figure {
+  background-color: #ffffff;
+}
+
+header img {
+  height: 1.5rem;
+  /*padding: 0 .25rem;*/
 }
 
 header h1 {
+  flex-grow: 1;
   color: #ffffff;
+  background-color: #003366;
+  font-weight: normal;
 }
 
-/* <h1>/<p> size ratio: 1.5 → factor: 1.5^(1/6)= */
+/* h1/h4 size ratio: 1.5 → factor: 1.5^(1/4)=1.1067 */
 h1 { font-size: 1.5rem; }
-h2 { font-size: 1.402rem; }
-h3 { font-size: 1.3104rem; }
-h4 { font-size: 1.2247rem; }
-h5 { font-size: 1.1447rem; }
-h6 { font-size: 1.0699rem; }
+h2 { font-size: 1.3554rem; }
+h3 { font-size: 1.2247rem; }
+h4, h5, h6 { font-size: 1.1067rem; }
 
 p {
   margin: .5rem 0;
@@ -405,6 +432,10 @@ pre {
 
 code, code * {
   white-space: pre-wrap;
+}
+
+header, main, footer, nav, aside, figure, section, article, h1, h2, h3, h4, h5, h6 {
+  transition: all .333s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 /************************************** 2/5: small devices (landscape phones, ≥ 576px) */
@@ -432,13 +463,11 @@ code, code * {
     display: inline;
   }
 
-  /* <h1>/<p> size ratio: 2 → factor: 2^(1/6)= */
+  /* h1/h4 size ratio: 2 → factor: 2^(1/4)=1.1892 */
   h1 { font-size: 2rem; }
-  h2 { font-size: 1.7818rem; }
-  h3 { font-size: 1.5874rem; }
-  h4 { font-size: 1.4142rem; }
-  h5 { font-size: 1.2599rem; }
-  h6 { font-size: 1.1225rem; }
+  h2 { font-size: 1.6818rem; }
+  h3 { font-size: 1.4142rem; }
+  h4, h5, h6 { font-size: 1.1892rem; }
 
 }
 
@@ -478,13 +507,11 @@ code, code * {
     margin-left: 25%;
   }
 
-  /* <h1>/<p> size ratio: 2.5 → factor: 2.5^(1/6)= */
+  /* h1/h4 size ratio: 2.5 → factor: 2.5^(1/4)=1.2574 */
   h1 { font-size: 2.5rem; }
-  h2 { font-size: 2.1459rem; }
-  h3 { font-size: 1.842rem; }
-  h4 { font-size: 1.5811rem; }
-  h5 { font-size: 1.3572rem; }
-  h6 { font-size: 1.165rem; }
+  h2 { font-size: 1.9882rem; }
+  h3 { font-size: 1.5811rem; }
+  h4, h5, h6 { font-size: 1.2574rem; }
 
   p {
     text-align: justify;
@@ -495,6 +522,10 @@ code, code * {
 /************************************** 4/5: large devices (desktops, ≥ 992px) */
 
 @media (min-width: 992px) {
+
+  * {
+    text-rendering: optimizeLegibility;
+  }
 
   header, footer {
     padding-right: 25%;
@@ -513,13 +544,11 @@ code, code * {
     background-color: #eeeeee;
   }
 
-  /* <h1>/<p> size ratio: 3 → factor: 3^(1/6)= */
+  /* h1/h4 size ratio: 3 → factor: 3^(1/4)=1.3161 */
   h1 { font-size: 3rem; }
-  h2 { font-size: 2.498rem; }
-  h3 { font-size: 2.0801rem; }
-  h4 { font-size: 1.7321rem; }
-  h5 { font-size: 1.4422rem; }
-  h6 { font-size: 1.2009rem; }
+  h2 { font-size: 2.2795rem; }
+  h3 { font-size: 1.7321rem; }
+  h4, h5, h6 { font-size: 1.3161rem; }
 
 }
 
