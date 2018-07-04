@@ -1,4 +1,4 @@
-# Technical decisions
+## Technical decisions
 
 *Low-level, geeky guidelines and conventions about how we code web pages*
 
@@ -8,11 +8,12 @@
 1. [HTML](#2-html)
 1. [CSS](#3-css)
 1. [JS](#4-js)
+   1. [Client-side JS](#41-client-side-js)
 1. [Artwork](#5-artwork)
 
 ---
 
-## 1. General
+### 1. General
 
 * Character set: **Unicode**  
   👉 Universal, multilingual, standard
@@ -32,10 +33,10 @@
     👉 Avoids confusions to humans, and name collisions; no reasons to restrict length too much
   * All in lowercase  
     👉 Less strokes (no need to hold &#8679;), more predictable, more portable
-  * *Without* any characters that may be problematic for certain file systems or tools (eg ` `, `?`, `'`)  
+  * *Without* any characters that may be problematic for certain file systems or tools (eg `` ``, ``?``, ``'``)  
     👉 More portable, less bug-prone
 
-## 2. HTML
+### 2. HTML
 
 * HTML5 (doctype: `<!DOCTYPE html>`)
 * Language declarations (*locale*): `en-GB`
@@ -46,7 +47,7 @@
 * The default filename is `index.html`  
   👉 The extension `.htm` is a remnant of MS-DOS limitations; the name `Overview` fell out of fashion, is unnecessarily long, and contains mixed case
 
-## 3. CSS
+### 3. CSS
 
 * *Mobile-first*
 * We adopt [Bootstrap](https://getbootstrap.com/) 4.x's [responsive breakpoints](https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints)
@@ -57,7 +58,7 @@
   * Some colours
 * CSS should pass our own validator, if at all possible (tip: use [`validate.sh`](validate.sh))
 
-## 4. JS
+### 4. JS
 
 * **Semicolons** at the end of statements
 * Behaviour encapsulated inside IIFE's  
@@ -66,18 +67,20 @@
 * Quotes for strings: `'` (single quotation mark)  
   👉 `"` (double quote) requires one extra keystroke (to hold &#8679;)
 
-These JS features have enough support, and are **encouraged** (links point to corresponding *caniuse.com* page):
+#### 4.1. Client-side JS
+
+These JS features have enough support across browsers, and are **encouraged** (links point to corresponding *caniuse.com* page):
 
 * [Strict mode](https://caniuse.com/#feat=use-strict)
 * [`const`](https://caniuse.com/#feat=const)
 
-These other JS features we **avoid** on purpose, for they are not sufficiently well supported (links to *caniuse.com* again):
+These other JS features we **avoid** on purpose, for they are not sufficiently well supported on enough browsers (links to *caniuse.com* again):
 
 * [`let`](https://caniuse.com/#feat=let)
 * [*Fat arrow* functions](https://caniuse.com/#feat=arrow-functions)
 * [Template literals](https://caniuse.com/#feat=template-literals)
 
-## 5. Artwork
+### 5. Artwork
 
 * Preferably vector images (SVG) when possible  
   👉 standard, lightweight, scalable
