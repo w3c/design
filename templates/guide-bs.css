@@ -1,0 +1,22 @@
+/**:not(#overlay) {*/
+html, body, div, p, img, h1, h2, h3, h4, h5, h6, h7, ul, ol, li {
+  transition-property: margin, border, padding, display, opacity, width, height, font-size, background-color, color;
+  transition-duration: .5s;
+  transition-timing-function: linear;
+}
+
+#overlay {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: rgba(255, 255, 0, 0.5);
+  transition-property: none;
+}
+
+#overlay button {
+  display: block;
+  margin-bottom: .25rem;
+  width: 100%;
+  transition-property: none;
+}
