@@ -1,0 +1,13 @@
+$body-bg: #f0f0f0;
+$body-color: #404040;
+$spacer: .5rem;
+$enable-rounded: false;
+$font-size-base: 1.5rem;
+$font-family-base: 'Farsan', cursive;
+
+.breadcrumb {
+  background-color: #ffffff;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Farsan');
+@import "node_modules/bootstrap/scss/bootstrap";
