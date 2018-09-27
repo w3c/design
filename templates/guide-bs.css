@@ -1,4 +1,3 @@
-/**:not(#overlay) {*/
 html, body, div, p, img, h1, h2, h3, h4, h5, h6, h7, ul, ol, li {
   transition-property: margin, border, padding, display, opacity, width, height, font-size, background-color, color;
   transition-duration: .1s;
