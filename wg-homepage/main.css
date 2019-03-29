@@ -44,6 +44,9 @@ header ul {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+header li {
+    vertical-align: middle;
+}
 header a, header a:visited {
   border-bottom: 1px solid #005A9C;
   display: block;
